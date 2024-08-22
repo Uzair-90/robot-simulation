@@ -1,8 +1,8 @@
-# Install script for directory: /home/uzair/ws_mobile/src/mobile_robot
+# Install script for directory: /home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/src/mobile_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/uzair/ws_mobile/install/mobile_robot")
+  set(CMAKE_INSTALL_PREFIX "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/install/mobile_robot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,68 +44,68 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE DIRECTORY FILES
-    "/home/uzair/ws_mobile/src/mobile_robot/launch"
-    "/home/uzair/ws_mobile/src/mobile_robot/model"
+    "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/src/mobile_robot/launch"
+    "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/src/mobile_robot/model"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mobile_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mobile_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mobile_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mobile_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/environment" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/packages/mobile_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_index/share/ament_index/resource_index/packages/mobile_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot/cmake" TYPE FILE FILES
-    "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_core/mobile_robotConfig.cmake"
-    "/home/uzair/ws_mobile/build/mobile_robot/ament_cmake_core/mobile_robotConfig-version.cmake"
+    "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_core/mobile_robotConfig.cmake"
+    "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/ament_cmake_core/mobile_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/uzair/ws_mobile/src/mobile_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_robot" TYPE FILE FILES "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/src/mobile_robot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -116,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/uzair/ws_mobile/build/mobile_robot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/uzair/ws_mobile/install/mobile_robot")
+  set(install_space "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/install/mobile_robot")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/uzair/ws_mobile/build/mobile_robot/install_manifest.txt")
+set(install_manifest "/home/basim/DuneAI/ros/ws2/src/robot-simulation/ws_mobile/build/mobile_robot/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
